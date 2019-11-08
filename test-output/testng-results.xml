@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="165877" started-at="2019-11-08T07:36:39Z" finished-at="2019-11-08T07:39:25Z">
+    <groups>
+    </groups>
+    <test name="Parallel" duration-ms="165877" started-at="2019-11-08T07:36:39Z" finished-at="2019-11-08T07:39:25Z">
+      <class name="driverscript.DClass">
+        <test-method status="PASS" signature="initializeDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:driverscript.DClass@37374a5e]" name="initializeDriver" is-config="true" duration-ms="91" started-at="2019-11-08T07:36:39Z" finished-at="2019-11-08T07:36:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://egyt-dev1.fa.us6.oraclecloud.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android Emulator]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5.1.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="Safari()[pri:0, instance:driverscript.DClass@37374a5e]" name="Safari" duration-ms="46" started-at="2019-11-08T07:36:40Z" finished-at="2019-11-08T07:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Safari -->
+        <test-method status="PASS" signature="Firefox()[pri:0, instance:driverscript.DClass@37374a5e]" name="Firefox" duration-ms="47" started-at="2019-11-08T07:36:40Z" finished-at="2019-11-08T07:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firefox -->
+        <test-method status="PASS" signature="IE()[pri:0, instance:driverscript.DClass@37374a5e]" name="IE" duration-ms="47" started-at="2019-11-08T07:36:40Z" finished-at="2019-11-08T07:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IE -->
+        <test-method status="PASS" signature="Chrome()[pri:0, instance:driverscript.DClass@37374a5e]" name="Chrome" duration-ms="165750" started-at="2019-11-08T07:36:40Z" finished-at="2019-11-08T07:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chrome -->
+        <test-method status="PASS" signature="CloseReport()[pri:0, instance:driverscript.DClass@37374a5e]" name="CloseReport" is-config="true" duration-ms="1" started-at="2019-11-08T07:39:25Z" finished-at="2019-11-08T07:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseReport -->
+      </class> <!-- driverscript.DClass -->
+    </test> <!-- Parallel -->
+  </suite> <!-- Suite -->
+</testng-results>
